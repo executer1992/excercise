@@ -1,0 +1,25 @@
+div.form-container {
+    height: calc(100vh - 60px);
+
+    header div.row {
+        margin: 0 4rem;
+        padding: 5px 0;
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 575px) {
+    .col-sm-4 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-bottom: 5px !important;
+    }
+}

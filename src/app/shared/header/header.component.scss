@@ -1,0 +1,17 @@
+nav.navbar {
+    height: 60px;
+
+    div.navigation-item {
+        padding: 5px;
+        width: 400px;
+        cursor: pointer;
+    }
+
+    div.flex-item:nth-child(1) {
+        width: 40%;
+    }
+
+    div.flex-item:nth-child(2) {
+        width: 50%;
+    }
+}

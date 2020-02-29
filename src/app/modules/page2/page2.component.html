@@ -1,0 +1,26 @@
+<div class="page2-container bg-primary-blue">
+   <div class="row">
+      <div class="col-sm-12 m-2 p-3 border text-white text-center border-white bg-primary-dark">
+         {{ user.name }} {{ user.surname }}'s Page
+      </div>
+   </div>
+
+   <div class="row d-flex justify-content-center m-5">
+      <button (click)="access()" class="col-sm-3 btn text-center bg-success border border-white text-white">
+         ACCESS
+      </button>
+   </div>
+
+   <div class="row d-flex justify-content-center m-5">
+      <div
+         [style.backgroundImage]="getBackground()"
+         class="image-box text-center bg-gray border border-white text-white"
+      ></div>
+   </div>
+
+   <div class="row d-flex justify-content-center m-2">
+      <div *ngIf="showAlert" class="col-sm-3 btn text-center bg-alert border border-white text-white">
+         {{ alertMessage }}
+      </div>
+   </div>
+</div>

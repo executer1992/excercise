@@ -1,0 +1,16 @@
+div.page2-container {
+   height: calc(100vh - 60px);
+
+   div.row {
+      margin: 0 4rem;
+      padding: 5px 0;
+   }
+
+   div.image-box {
+       width: 500px;
+       height: 500px;
+       background-size: cover;
+       background-position: center center;
+       background-repeat: no-repeat;
+   }
+}
