@@ -44,7 +44,7 @@ export class Page2Component implements OnInit {
   }
 
   public haveAnAccess(): void {
-    this.bgImageVariable = '../../../assets/images/hidethepainharold.jpg';
+    this.bgImageVariable = '/assets/images/hidethepainharold.jpg';
     this.showAlert = false;
   }
 }
